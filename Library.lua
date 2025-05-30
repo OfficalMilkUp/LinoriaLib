@@ -2680,8 +2680,6 @@ end;
 
 -- < Create other UI elements >
 
-        Config.Position = UDim2.fromScale(0.5, 0.5)
-do
     Library.NotificationArea = Library:Create('Frame', {
         BackgroundTransparency = 1;
         Position = UDim2.new(0, 809, 0, -25);
